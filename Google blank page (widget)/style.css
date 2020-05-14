@@ -1,0 +1,101 @@
+body{
+    padding: 10px;
+    font-family: Arial;
+}
+.buttontop{
+   text-align: right;
+   word-spacing: 15px;  
+}
+.buttontop a:last-child{
+    padding: 10px;
+    font-size: 16px; 
+    transition: 0.3s; 
+}
+.buttontop a:hover:last-child{
+    background-color: rgb(238, 234, 234);
+    border-radius: 100%; 
+}
+#logo{
+    text-align: center;
+    padding-top: 150px;
+}
+#search{
+    text-align: center;
+    padding-top: 30px;
+    display: block;
+}
+#search input{
+    border-radius: 30px;
+    width: 500px;
+    border: 0;
+    box-shadow:0 0 10px #D0D0D0;
+    padding:10px;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.widget{
+    color: black;
+    display:inline-block;
+    padding: 10px;
+    width: 80px;
+    font-family: Arial;
+    text-align: center;
+    border-radius: 2px;
+    transition: 0.3s;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.widget:hover{
+    background-color: rgb(238, 234, 234);
+    color: black;
+}
+.widget img{
+    background-color: rgb(223, 219, 219);
+    border-radius: 100%;
+    padding: 5px;
+}
+.widget h5{
+    margin: 0;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.widget::after{
+    content:"\2838";
+    float: right;
+    margin-top: -80px;
+    transition: 0.3s;
+    opacity: 0;
+}
+.widget:hover::after{
+    color:black;
+    transition-delay: 1s;
+    opacity: 1.0;
+}
+.box{
+    display: block;
+    margin-left: 370px;
+}
+.inline{
+    margin-left: 0;
+}
+p {
+    margin-left: 700px;
+    margin-top: 100px;
+}
+button{
+    padding: 10px;
+    border-radius: 30%;
+    border: 0;
+    box-shadow:0 0 15px #D0D0D0;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: rgb(224, 224, 250);
+}
